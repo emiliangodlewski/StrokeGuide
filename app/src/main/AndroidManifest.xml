@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gcode.strokeguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SymptomList"/>
+        <activity android:name=".InstructionPageOne" />
+        <activity android:name=".InstructionPageTwo" />
+        <activity android:name=".Responding" />
+        <activity android:name=".NonResponding" />
+        <activity android:name=".RKO"></activity>
+    </application>
+
+</manifest>
